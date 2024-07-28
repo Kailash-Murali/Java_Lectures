@@ -2,6 +2,15 @@
 
 public class JavaLec {
 
+    // static void Strings(){
+    //     String FName = "skks";
+    //     int LName = 20;
+    //     int sum = FName + LName //Error!
+    //     System.out.println(FName+LName);
+    //     String msg = "And then Ronaldo went \"Siuu!!\. What a bloke.";
+    //     System.out.println(msg);
+    // }   
+
     // static void Calculator() {
 
     //     int Choice = 1;
@@ -75,6 +84,57 @@ public class JavaLec {
     public static void main(String[] args) {
         // Math();
         // Calculator();
-        // system.out.println("Hello World!");
+        // System.out.println("Hello World!");
+        // int x = 10;
+        // int y = 1;
+        // System.out.println(x > y);
+        // int x = 10;
+        // int y = 1;
+        // if (x>y) System.out.printf("%d > %d" , x, y);
+        // else System.out.printf("%d > %d",  y, x);
+        // int x =10;
+        // int y = 10;
+        // if  (x>y) System.out.printf("%d > %d" , x, y);
+        // else if (y>x) System.out.print(" %d >%d" , y, x);
+        // else System.out.print("%d = %d , x, y");
+        // String y = "yes";
+        // String n ="no";
+        // String val = y;
+        // switch (val){
+        //     case "yes";
+        //         System.out.println("Success!");
+        //         break;
+        //     case "no";
+        //         System.out.println("Failure!");
+        //         break;
+        //     default;
+        //         System.out.println("Invalid");
+        //     }
+        //     int i = 65;
+        //     do {
+        //         System.out.print((char)i);
+        //         i++;
+        //     }
+        //     while (i>70);
+        //     String[] Commentary = {"BAFFANA BAFFANA ! ! ! ",  "GOAL FOR SOUTH AFRICA ", "GOAL FOR ALL AFRICA ! ! !"};
+        //     for (String i : Commentary)
+        //         System.out.print(i);
+        //     String[] arr = {"HELLO", "continue","there!", "break", "I will not get executed!"};
+        //     for (String i : arr){ 
+        //         if (i == "continue") continue;
+        //         else if (i == "break");
+        //         System.out.print(i);
+        //         System.out.print("");
+        //     }
+        //     Scanner Scn = new Scanner(System.in);
+        //     String Name; int Age;
+
+        //     System.out.println("Enter name: ");
+        //     Name = Scn.nextLine();
+        //     System.out.println("Enter age: ");
+        //     Age = Scn.nextInt();
+
+        //     System.out.printf("Hello, I'm %s, aged %d!", Name, Age);
+
     }
 }
