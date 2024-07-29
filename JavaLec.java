@@ -1,6 +1,92 @@
-//import java.util.Scanner;
+import java.util.Scanner;
+//import java.util.ArrayList;
 
 public class JavaLec {
+
+    // static int GCD(int No1, int No2){
+        
+    //     if(No2 == 0)
+    //         return No1;
+    //     else
+    //         return GCD(No2, No1 % No2);
+        
+    // }
+
+    // static void LCM(){
+
+    //     //Var Decl
+    //     int No1, No2, Gcd, Lcm;
+    //     Scanner Scn = new Scanner(System.in);
+
+    //     //Input
+    //     System.out.println("Welcome User! Enter nos, successively: ");
+    //     No1 = Scn.nextInt();
+    //     No2 = Scn.nextInt();
+
+    //     //Condition and Output
+    //     Gcd = GCD(No1, No2);
+    //     Lcm = (No1 * No2)/Gcd;
+    //     System.out.printf("The LCM is %d", Lcm);                
+
+    // }
+
+    // static void PatternPrinting(){
+        
+    //     //Var Decl
+    //     int LenSq, i;
+    //     Scanner Scn = new Scanner(System.in);
+
+    //     //Input
+    //     System.out.println("Welcome User!\nEnter length of Square: ");
+    //     LenSq = Scn.nextInt();
+
+    //     //Pattern printing
+    //     for(i = 0; i < (LenSq+2)/3; i++){
+    //         if (i == 0 || i == ((LenSq+2)/3)-1)
+    //             System.out.println("*".repeat(LenSq));
+    //         else{
+    //             System.out.printf("*");
+    //             System.out.printf(" ".repeat(LenSq-2));
+    //             System.out.printf("*\n");
+    //         }
+    //     }
+
+    // }
+
+    // static void ArmstrongNo(){
+
+    //     //Scanner Obj & Var decl
+    //     Scanner Scn = new Scanner(System.in);
+    //     int No1, No2, ArmSum = 0, i, j, LenNo;
+    //     ArrayList<Integer> ArmList = new ArrayList<Integer>();
+    //     String ArmString;
+
+    //     //Input
+    //     System.out.println("Enter the nos, successively: ");
+    //     No1 = Scn.nextInt();
+    //     No2 = Scn.nextInt();
+
+    //     //Checking for Armstrong nos
+    //     for (i = No1; i <= No2; i++){
+    //         ArmString = String.valueOf(i); 
+    //         LenNo = ArmString.length();
+    //         for (j = 0; j < LenNo; j++)
+    //             ArmSum += Math.pow(Character.getNumericValue(ArmString.charAt(j)), LenNo);
+    //         if (ArmSum == i)
+    //             ArmList.add(i); 
+    //         ArmSum = 0;           
+    //     }
+
+    //     //Printing the nos
+    //     if (ArmList.size() != 0){
+    //         System.out.println("The Armstrong nos are: ");
+    //         for (i = 0; i < ArmList.size(); i++)
+    //             System.out.println(ArmList.get(i));
+    //     }
+    //     else
+    //         System.out.println("There exists no Armstrong in the given range!");
+            
+    // }
 
     // static void Strings(){
     //     String FName = "skks";
@@ -82,6 +168,10 @@ public class JavaLec {
 	// }
 
     public static void main(String[] args) {
+
+        //LCM();
+        //PatternPrinting();
+        //ArmstrongNo();
         // Math();
         // Calculator();
         // System.out.println("Hello World!");
@@ -116,7 +206,7 @@ public class JavaLec {
         //         i++;
         //     }
         //     while (i>70);
-        //     String[] Commentary = {"BAFFANA BAFFANA ! ! ! ",  "GOAL FOR SOUTH AFRICA ", "GOAL FOR ALL AFRICA ! ! !"};
+        //     String[] Commentary = {"GOALLLLLLL", "BAFFANA BAFFANA ! ! ! ",  "GOAL FOR SOUTH AFRICA ", "GOAL FOR ALL AFRICA ! ! !"};
         //     for (String i : Commentary)
         //         System.out.print(i);
         //     String[] arr = {"HELLO", "continue","there!", "break", "I will not get executed!"};
