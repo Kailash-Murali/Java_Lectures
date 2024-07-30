@@ -1,7 +1,26 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 //import java.util.ArrayList;
+//import java.util.Arrays
 
 public class JavaLec {
+
+    // static void ThirdLargestNo(){
+
+    //     //Var decl & input
+    //     int size, i;
+    //     Scanner Scn = new Scanner(System.in);
+
+    //     System.out.println("Welcome User!\nEnter the size of array: ");
+    //     size = Scn.nextInt();
+    //     System.out.println("Enter the elements of the array: ");
+    //     int array[] = new int[size]; 
+    //     for (i = 0; i < size; i++)
+    //         array[i] = Scn.nextInt();
+
+    //     //Sorting & output
+    //     Arrays.sort(array);
+    //     System.out.printf("The third largest element is: %d", array[size-3]);        
+    // } 
 
     // static int GCD(int No1, int No2){
         
@@ -169,11 +188,8 @@ public class JavaLec {
 
     public static void main(String[] args) {
 
-        //LCM();
-        //PatternPrinting();
-        //ArmstrongNo();
-        // Math();
-        // Calculator();
+	// Foundational syntaxes and semantics
+
         // System.out.println("Hello World!");
         // int x = 10;
         // int y = 1;
@@ -206,6 +222,8 @@ public class JavaLec {
         //         i++;
         //     }
         //     while (i>70);
+
+	//     String
         //     String[] Commentary = {"GOALLLLLLL", "BAFFANA BAFFANA ! ! ! ",  "GOAL FOR SOUTH AFRICA ", "GOAL FOR ALL AFRICA ! ! !"};
         //     for (String i : Commentary)
         //         System.out.print(i);
@@ -225,6 +243,67 @@ public class JavaLec {
         //     Age = Scn.nextInt();
 
         //     System.out.printf("Hello, I'm %s, aged %d!", Name, Age);
+
+	// String Buffer & Builder
+
+	// StringBuffer str = new StringBuffer("Hello, ");
+
+        // str.append("there!");
+        // System.out.println(str);
+        
+        // str.insert(2, "llooo");
+        // System.out.println(str);
+        
+        // str.replace(0, 6, "Welcome!");
+        // System.out.println(str);
+        
+        // str.delete(2, 10);
+        // System.out.println(str);
+        
+        // str.reverse();
+        // System.out.println(str);
+        
+        // str = new StringBuilder();
+        // str.ensureCapacity(10);
+        // System.out.println(str.capacity());
+        
+        // str.append("Hellololol there!");
+        // str.ensureCapacity(50);
+        // System.out.println(str.capacity());
+        
+        // StringBuilder str = new StringBuilder("Hello, ");
+
+        // str.append("there!");
+        // System.out.println(str);
+        
+        // str.insert(2, "llooo");
+        // System.out.println(str);
+        
+        // str.replace(0, 6, "Welcome!");
+        // System.out.println(str);
+        
+        // str.delete(2, 10);
+        // System.out.println(str);
+        
+        // str.reverse();
+        // System.out.println(str);
+        
+        // str = new StringBuilder();
+        // str.ensureCapacity(10);
+        // System.out.println(str.capacity());
+        
+        // str.append("Hellololol there!");
+        // str.ensureCapacity(50);
+        // System.out.println(str.capacity());
+
+	// Function call for qs
+
+	//ThirdLargestNo();
+	//LCM();
+        //PatternPrinting();
+        //ArmstrongNo();
+        // Math();
+        // Calculator();
 
     }
 }
