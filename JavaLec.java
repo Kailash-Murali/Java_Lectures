@@ -1,8 +1,8 @@
-import java.util.StringTokenizer;
-import java.util.Scanner;
+// import java.util.StringTokenizer;
+// import java.util.Scanner;
 
-public class JavaLec {
-    public static void main(String[] args){
+// public class JavaLec {
+//     public static void main(String[] args){
     
         // StringTokenizer str = new StringTokenizer("Cristiano Ronaldoo said SIUUUUUUUUUU!!", " ");
         // while (str.hasMoreTokens())
@@ -29,25 +29,25 @@ public class JavaLec {
         
         // Scn.close();
         
-        Car[] objCarArray;
-        objCarArray = new int[2];
+        // Car[] objCarArray;
+        // objCarArray = new int[2];
 
-        objCarArray("Creta", 1970);
-        objCarArray("Mustang", 88);
+        // objCarArray("Creta", 1970);
+        // objCarArray("Mustang", 88);
 
-        System.out.printf("Car Name: %s\nCar Model: %d\n", objCarArray[0].CarName, objCarArray[0].CarModel);
-        System.out.printf("Car Name: %s\nCar Model: %d\n", objCarArray[1].CarName, objCarArray[1].CarModel);
+        // System.out.printf("Car Name: %s\nCar Model: %d\n", objCarArray[0].CarName, objCarArray[0].CarModel);
+        // System.out.printf("Car Name: %s\nCar Model: %d\n", objCarArray[1].CarName, objCarArray[1].CarModel);
         
     }
 }
 
-public class Car{
-    String CarName;
-    int CarModel;
-    Car(String CarName, int CarModel){
-        this.CarName = CarName;
-        this.CarModel = CarModel;
-    }
-}
+// public class Car{
+//     String CarName;
+//     int CarModel;
+//     Car(String CarName, int CarModel){
+//         this.CarName = CarName;
+//         this.CarModel = CarModel;
+//     }
+// }
 
 
