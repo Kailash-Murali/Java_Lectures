@@ -1,7 +1,8 @@
-//import java.util.StringTokenizer
+//import java.util.StringTokenizer;
+//import java.util.StringBuilder;
 //import java.util.Scanner;
 //import java.util.ArrayList;
-//import java.util.Arrays
+//import java.util.Arrays;
 
 // public class JavaLec {
 
@@ -331,6 +332,49 @@
         // System.out.printf("Car Name: %s\nCar Model: %d\n", objCarArray[0].CarName, objCarArray[0].CarModel);
         // System.out.printf("Car Name: %s\nCar Model: %d\n", objCarArray[1].CarName, objCarArray[1].CarModel);
 
+	// Array Functions 
+        
+        // int[] Arr = {1,2,3,4,5};
+        // int i, Sum = 0;
+        
+        // for (i = 0; i < 5; i++)
+        //     Sum += Arr[i];
+        
+        // System.out.println(Sum);
+        
+        // int[] IntArr = new int[10];
+        // byte[] ByteArr = new byte[10];
+        // short[] ShortArr = new short[10];
+        // String[] StrArr = new String[10];
+        
+        // System.out.println(IntArr.getClass());
+        // System.out.println(ByteArr.getClass());
+        // System.out.println(ShortArr.getClass());
+        // System.out.println(StrArr.getClass());
+        // System.out.println(IntArr.getClass().getSuperclass());
+        
+        //Cloning
+        
+        //  int[] Arr = {1,2,3,4,5};
+        //  int[] CloneArr = Arr.clone();
+        //  for (int i = 0; i < 5; i++){
+        //     System.out.printf("Arr[%d]: %d ",i, Arr[i]);
+        //     System.out.printf("CloneArr[%d]: %d\n", i, CloneArr[i]);
+        //  }
+         
+        //  System.out.printf("Arr == CloneArr => %b", Arr == CloneArr);
+         
+        //  int[][] Arr = {{1,2,3,4,5}, {1,2,3,4,5}};
+        //  int[][] CloneArr = Arr.clone();
+        //  for (int i = 0; i < 2; i++){
+        //     for (int j =0; j < 5; j++){
+        //         System.out.printf("Arr[%d][%d]: %d ",i, j, Arr[i][j]);
+        //         System.out.printf("CloneArr[%d][%d]: %d\n", i, j, CloneArr[i][j]);
+        //     }
+        //  }
+         
+        //  System.out.printf("Arr == CloneArr => %b", Arr == CloneArr);
+
 	// Function call for qs
 
 	//ThirdLargestNo();
@@ -340,8 +384,8 @@
         // Math();
         // Calculator();
 
-    }
-}
+//    }
+// }
 
 // public class Car{
 //     String CarName;
