@@ -375,6 +375,36 @@
          
         //  System.out.printf("Arr == CloneArr => %b", Arr == CloneArr);
 
+	//Exploring Classes
+	 // int Age = 10;
+	// String Name = "Mehssii";
+	//public static void main(String[] args){
+	//    JavaLec Obj = new JavaLec();
+	//    System.out.println(Obj.Name); 
+	//    System.out.println(Obj.Age);
+	//}
+	
+	//Methods
+	// static void HelloWorld(boolean Check){
+	//     System.out.println("Hello World!");
+	// }
+	// public void Public(){
+	//     System.out.println("Sksksksksk");
+	// }
+	// public static void main(String[] args){
+	//     HelloWorld();
+	//     Public();        
+	// }
+	
+	// //Special Method - Constructor
+	// public JavaLec(boolean Check){
+	//     if (Check)
+	//         System.out.println("Constructor!");
+	// }
+	// public static void main(String[] args){
+	//     JavaLec Obj = new JavaLec(true);    
+	// }
+
 	// Function call for qs
 
 	//ThirdLargestNo();
@@ -385,6 +415,10 @@
         // Calculator();
 
 //    }
+// }
+
+// public class Main {
+//     int No = 5;
 // }
 
 // public class Car{
