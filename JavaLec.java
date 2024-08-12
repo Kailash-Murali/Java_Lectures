@@ -405,6 +405,15 @@
 	//     JavaLec Obj = new JavaLec(true);    
 	// }
 
+// public static void main(String[] args) {
+//         JavaLec2 JL = new JavaLec3();
+//         JavaLec3 JL1 = new JavaLec3();
+//         System.out.println(JL.JerseyNo);
+//         System.out.println(JL.Player);
+//         System.out.println(JL1.Status);
+//         JL.Team(); 
+//     }
+
 	// Function call for qs
 
 	//ThirdLargestNo();
@@ -429,3 +438,21 @@
 //         this.CarModel = CarModel;
 //     }
 // }
+
+// abstract class JavaLec2{
+
+// 	public int JerseyNo  = 17;
+// 	public String Player = "KDB";
+// 	public abstract void Team();
+
+// }
+
+// class JavaLec3 extends JavaLec2{
+
+//     String Status = "Active";
+//     public void Team(){
+//         System.out.println("City");
+//     }
+
+// }
+
