@@ -376,7 +376,8 @@
         //  System.out.printf("Arr == CloneArr => %b", Arr == CloneArr);
 
 	//Exploring Classes
-	 // int Age = 10;
+
+	// int Age = 10;
 	// String Name = "Mehssii";
 	//public static void main(String[] args){
 	//    JavaLec Obj = new JavaLec();
@@ -385,6 +386,7 @@
 	//}
 	
 	//Methods
+
 	// static void HelloWorld(boolean Check){
 	//     System.out.println("Hello World!");
 	// }
@@ -397,6 +399,7 @@
 	// }
 	
 	// //Special Method - Constructor
+
 	// public JavaLec(boolean Check){
 	//     if (Check)
 	//         System.out.println("Constructor!");
@@ -405,14 +408,38 @@
 	//     JavaLec Obj = new JavaLec(true);    
 	// }
 
-// public static void main(String[] args) {
-//         JavaLec2 JL = new JavaLec3();
-//         JavaLec3 JL1 = new JavaLec3();
-//         System.out.println(JL.JerseyNo);
-//         System.out.println(JL.Player);
-//         System.out.println(JL1.Status);
-//         JL.Team(); 
-//     }
+	// Abstract Classes
+
+	// public static void main(String[] args) {
+	//         JavaLec2 JL = new JavaLec3();
+	//         JavaLec3 JL1 = new JavaLec3();
+	//         System.out.println(JL.JerseyNo);
+	//         System.out.println(JL.Player);
+	//         System.out.println(JL1.Status);
+	//         JL.Team(); 
+	//     }
+
+	// Obj instantiation for Encapsulation
+        // static Team PlayerObj = new Team();
+        // System.out.println(PlayerObj.getName());
+
+        // Obj Instantiation for Inheritance
+        // GrandChildren GrandChild = new GrandChildren();
+        
+        // System.out.println(GrandChild.ParentName);
+        // System.out.println(GrandChild.ChildName);
+        // System.out.println(GrandChild.Name);
+
+	// Inner classes
+
+        // public class JavaLecInner{
+        //     String Msg = "Inside Inner Class!";
+        // }
+
+	// JavaLec ObjMain = new JavaLec();
+ 	// JavaLecInner Obj = ObjMain.new JavaLecInner();
+
+ 	// System.out.println(Obj.Msg);
 
 	// Function call for qs
 
@@ -439,6 +466,8 @@
 //     }
 // }
 
+// Abstract Classes
+
 // abstract class JavaLec2{
 
 // 	public int JerseyNo  = 17;
@@ -455,4 +484,38 @@
 //     }
 
 // }
+
+// Encapsulation
+
+// Team Class
+// class Team {
+//    
+//     private static String PlayerName = "Dhoni";
+//    
+//     public static void setName(String Name){
+//     	   PlayerName = Name;
+//     }
+//
+//     public static String getName(){
+//         return PlayerName;
+//     }
+// }
+
+// Inheritance
+
+// class Parents{
+//     public String ParentName = "Mohideen";
+// }
+
+// class Children extends Parents{
+//     public String ChildName = "Joel";
+// }
+
+// class GrandChildren extends Children {
+//     public String Name = "Ganesh";
+// }
+
+
+
+    
 
